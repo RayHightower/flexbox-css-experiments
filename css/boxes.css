@@ -6,6 +6,11 @@ ul {
 	padding: 0;
 	margin: 0;
 	border: 1px dotted red;
+  display: flex; /* added during Jen's demo at ConFoo 2016. */
+  /* flex-direction: row-reverse; /* row, column, row-reverse, column-reverse */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap; /* shorthand version of above two lines */
+  justify-content: flex-end;
 }
 li {
 	border: 1px solid #999;

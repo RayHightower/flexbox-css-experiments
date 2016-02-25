@@ -19,7 +19,7 @@ Note lack of browser prefixing -- this is to keep code easy to read. For backwar
   margin-left: -0.5rem;
   margin-right: -0.5rem; 
 }
-[class*="col"] {
+[class*="col"] { /* all classes that have the string "col" inside of them. */
   flex: 0 0 100%;
   max-width: 100%;
   padding-left: 0.5rem;

@@ -19,7 +19,8 @@ li {
 }
 .flex2 {
   border: 2px dotted blue ;
-  order: -1;
+  /* order: -1; */
+  flex-basis: ;
 }
 
 
